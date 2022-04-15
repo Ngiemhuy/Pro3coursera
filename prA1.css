@@ -1,0 +1,73 @@
+.navbar-brand h1{
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-top: 0;
+    margin-bottom: 0%;
+    line-height: .75;
+    color: rgb(171, 226, 43);
+    font-size: 60px;
+}
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border:0}
+    .nav-item{
+        margin-top: 30px;
+        padding-left: 150px;
+        font-size: 30px;   
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    @media (min-width: 1200px) {#C,#Ca, #Cb {
+        height: 252px;
+        width: 100%;
+        margin-bottom: 15px;
+         position: relative;
+         border: 2px solid #3F0C1F;
+         overflow: hidden;
+    }}
+
+    
+    
+    /********** Medium devices only **********/
+    @media (min-width: 992px) and (max-width: 1199px) {#C,#Ca, #Cb {
+        height: 252px;
+        width: 100%;
+        margin-bottom: 15px;
+         position: relative;
+         border: 2px solid #3F0C1F;
+         overflow: hidden;
+    }}
+
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+        #C,#Ca, #Cb {
+            height: 252px;
+            width: 100%;
+            margin-bottom: 15px;
+             position: relative;
+             border: 2px solid #3F0C1F;
+             overflow: hidden;
+        }}
+
+              
+            
+            @media (max-width: 768px)and(min-width: 500px)  {
+                #C,#Ca, #Cb {
+                  height: 252px;
+                  width: 100%;
+                  margin-bottom: 15px;
+                   position: relative;
+                   border: 2px solid #3F0C1F;
+                   overflow: hidden;
+              }}
+              @media (max-width: 767px) {
+                #C,#Ca, #Cb {
+                    height: 380px;
+                    width: 100%;
+                    margin-bottom: 15px;
+                     position: relative;
+                     border: 2px solid #3F0C1F;
+                     overflow: hidden;
+                }}
